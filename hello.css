@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: o;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Qr_bg{
+    position: relative;
+    height: 95%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(315deg, #ffffff, #d7e1ec);
+    margin: 14px 20px;
+}
+.Qrcode{
+    position: relative;
+    height: 500px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.img_bg{
+  background: rgb(41, 147, 209);
+  height: 300px;
+  width: 275px;
+  margin-top: 15px;
+  border-radius: 1rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img_bg img{
+    height: 220px;
+    width: 220px;
+}
+.Qrcode h1{
+    font-size: 20px;
+    margin: 30px 22px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.Qrcode p{
+    font-size: 14px;
+    margin: 30px 25px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: -10px;
+}
